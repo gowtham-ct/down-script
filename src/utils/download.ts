@@ -227,30 +227,5 @@ fetch(
 );
 */
 
-fetch(
-  "https://retool.internal.cleartax.co/api/pages/uuids/4f6547d2-c0c6-11ee-b230-ab48450c39f7/query?queryName=download_staging_zip_file",
-  {
-    headers: {
-      accept: "*/*",
-      "accept-language": "en-US,en;q=0.9",
-      "content-type": "application/json",
-      priority: "u=1, i",
-      "sec-ch-ua":
-        '"Not(A:Brand";v="99", "Google Chrome";v="133", "Chromium";v="133"',
-      "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-platform": '"Windows"',
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-origin",
-      timestamp: "1739244855685",
-      "x-retool-client-version": "2.113.22-9dddc16 (Build 1874)",
-      "x-xsrf-token": "efd9e842-54db-4ecd-948e-a75d8526f888",
-      cookie:
-        "accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ4c3JmVG9rZW4iOiJlZmQ5ZTg0Mi01NGRiLTRlY2QtOTQ4ZS1hNzVkODUyNmY4ODgiLCJ2ZXJzaW9uIjoiMS4yIiwiaWF0IjoxNzM3NTIyMTg3fQ.1OeiPed69ScWUiMYXlNI2MvOP8TZuiwuI4mD7lRbkqY; xsrfToken=efd9e842-54db-4ecd-948e-a75d8526f888; xsrfTokenSameSite=efd9e842-54db-4ecd-948e-a75d8526f888; __gsas=ID=9388a80a1718e577:T=1737668532:RT=1737668532:S=ALNI_MZDN-kg2qsIHoJYlEkhqcx_uuI8lA; in_retool_canary_group=never",
-      Referer: "https://retool.internal.cleartax.co/",
-      "Referrer-Policy": "origin",
-    },
-    body: '{"userParams":{"bucketNameParams":{"length":0},"fileKeyParams":{"0":"acf4c4fe-940e-41d2-899e-253ae34bb30c/f8579cdc-4f00-4f73-ac17-e4714cbc325c/2024/NOVEMBER/11/673277BDC2A3544223C64B10/data_extraction/acf4c4fe-940e-41d2-899e-253ae34bb30c/20241111213416.4711390.zip","length":1},"delimiterParams":{"length":0},"maxKeysParams":{"length":0},"prefixParams":{"length":0},"signedOperationNameParams":{"length":0},"signedOperationOptionsParams":{"length":0},"uploadFileNameParams":{"length":0},"uploadFileTypeParams":{"length":0},"copySourceParams":{"length":0},"tagSetParams":{"length":0}},"queryType":"S3Query","environment":"production","showLatest":false,"isEditorMode":false,"frontendVersion":"1","releaseVersion":null,"includeQueryExecutionMetadata":true,"resourceName":"779072eb-70da-480a-b275-dc5dd9e17500"}',
-    method: "POST",
-  }
-);
+
+
